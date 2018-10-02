@@ -1,7 +1,7 @@
-import character from './javascripts/components/characters.js';
+import {charactersBuilder} from './javascripts/components/characters.js';
 
 
 const initializeApp = () => {
-    character.charactersBuilder();
+    charactersBuilder();
 }
 initializeApp();
