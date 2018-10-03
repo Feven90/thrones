@@ -1,12 +1,13 @@
 import{printToDom} from '../helpers/util.js';
-import{charactersBuilder} from './characters.js'
+import{charactersBuilder, getCharacterz} from './characters.js'
 
 const closeButtonEvent = () => {
     const closeButton = document.getElementById("close-button");
     closeButton.addEventListener('click', () => {
-        closeButton.addEventListener('click', charactersBuilder())
-    })
-}
+charactersBuilder(getCharacterz());
+        
+    });
+};
 
 
 const detailsBuilder = (character) => {

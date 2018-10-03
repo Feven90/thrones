@@ -1,7 +1,8 @@
-import {charactersBuilder} from './javascripts/components/characters.js';
-
+// import {charactersBuilder} from './javascripts/components/characters.js';
+import {getCharacters} from './javascripts/data/charactersData.js';
 
 const initializeApp = () => {
-    charactersBuilder();
+    getCharacters();
+    // charactersBuilder();
 }
 initializeApp();

@@ -10,11 +10,16 @@
 </head>
 <body>
     <h1>Game Of Thrones</h1>
-<div id="characters"></div>
+    <div class="row">
+        <button class="btn btn-info" id="all">All</button>
+        <button class="btn btn-warning" id="stark">Stark</button>
+    </div>
+    <div id="characters"></div>
     
     <script src="main.js" type="module"></script>
+    <script src="./javascripts/helpers/util.js" type="module"></script>
+<script src="./javascripts/data/charactersData.js" type="module"></script>
    <script src="./javascripts/components/characters.js" type="module"></script> 
    <script src="./javascripts/components/detail.js" type="module"></script>
-   <script src="./javascripts/helpers/util.js" type="module"></script>
 </body>
 </html>
