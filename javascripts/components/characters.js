@@ -1,12 +1,7 @@
 import { printToDom } from "../helpers/util.js";
 import {detailsBuilder} from "./detail.js";
 
-const characters = [
-{id:'character1', name:"poiuy", house:"iyieue", imageUrl:"https://images.indianexpress.com/2017/08/cersei-lannister-danaerys-tagaryen-759.jpg"},
-{id:'character2',name:"reewse", house:"iyieue", imageUrl:"https://images.indianexpress.com/2017/08/cersei-lannister-danaerys-tagaryen-759.jpg"},
-{id:'character3',name:"wert", house:"iyieue", imageUrl:"https://images.indianexpress.com/2017/08/cersei-lannister-danaerys-tagaryen-759.jpg"},
-{id:'character4',name:"tyijh", house:"iyieue", imageUrl:"https://images.indianexpress.com/2017/08/cersei-lannister-danaerys-tagaryen-759.jpg"}
-];
+const characters = [];
 
 const characterClick = (e) => {
 const characterId = e.target.closest('.character-card').id;
@@ -22,7 +17,6 @@ const createEvents = () => {
         characterCards[i].addEventListener('click', characterClick);
     }
 }
-
 
 const charactersBuilder = () => {
 let domString = '';

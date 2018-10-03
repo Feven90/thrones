@@ -16,8 +16,7 @@ domString += `<div class="col-6 offset-md-3">`;
 domString +=    `<div class="row">`;
 domString +=    `<button class="btn btn-danger" id="close-button">x</button>`;
 domString +=    `</div>`;
-domString += `<div class="row">`;
-
+domString +=    `<div class="row">`;
 domString +=    `<div class="col">`;
 domString +=        `<img src="${character.imageUrl}" alt="${character.name}"/>`;
 domString +=    `</div>`;
